@@ -19,6 +19,10 @@ $enable-responsive-font-sizes: true;
 
 
 /********** Template CSS ************/
+
+html {
+    scroll-behavior: smooth;
+}
 h1,
 h2,
 .font-weight-bold {
@@ -93,7 +97,7 @@ h6,
 }
 
 .service-item {
-    height: 320px;
+    height: 420px;
     background: $light;
     transition: .5s;
 }
