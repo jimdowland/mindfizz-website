@@ -127,6 +127,13 @@ h6,
     transition: .5s;
 }
 
+.portfolio-item {
+    // Reset any possible CSS breaks
+    float: none;
+    display: block;
+    width: 100%; // or rely on Bootstrap grid
+}
+
 .portfolio-item:hover .portfolio-btn {
     opacity: 1;
     width: 100%;

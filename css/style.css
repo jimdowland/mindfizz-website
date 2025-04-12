@@ -9306,6 +9306,12 @@ h6,
   transition: 0.5s;
 }
 
+.portfolio-item {
+  float: none;
+  display: block;
+  width: 100%;
+}
+
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
   width: 100%;
