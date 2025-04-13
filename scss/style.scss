@@ -114,6 +114,12 @@ h6,
     color: $light;
 }
 
+.portfolio-container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
 .portfolio-item .portfolio-btn {
     position: absolute;
     width: 0;

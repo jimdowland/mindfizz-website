@@ -9293,6 +9293,12 @@ h6,
   color: #F4F5F8;
 }
 
+.portfolio-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .portfolio-item .portfolio-btn {
   position: absolute;
   width: 0;

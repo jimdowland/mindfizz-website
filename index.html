@@ -145,94 +145,123 @@
     <!-- Services End -->
 
 
-    <!-- Projects Start -->
-    <section id="projects">
-        <div class="container-fluid py-5">
-            <div class="container pt-5 pb-3">
-                <h1 class="display-4 text-uppercase text-center mb-5">Visit Our Projects</h1>
-                <div class="row">
-                    <div class="col-12 text-center mb-2">
-                        <ul class="list-inline mb-4" id="portfolio-flters">
-                            <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
-                                <i class="fa fa-star text-primary mr-2"></i>All
-                            </li>
-                            <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
-                                <i class="fa fa-briefcase text-primary mr-2"></i>Sales
-                            </li>
-                            <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
-                                <i class="fa fa-graduation-cap text-primary mr-2"></i>Training
-                            </li>
-                        </ul>
-                    </div>
+<!-- Projects Start -->
+<section id="projects" aria-labelledby="projects-heading">
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h2 id="projects-heading" class="display-4 text-uppercase text-center mb-5">Visit Our Projects</h2>
+
+            <nav aria-label="Project Categories">
+                <ul class="list-inline mb-4 text-center" id="portfolio-flters">
+                    <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
+                        <i class="fa fa-star text-primary mr-2" aria-hidden="true"></i>All
+                    </li>
+                    <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
+                        <i class="fa fa-briefcase text-primary mr-2" aria-hidden="true"></i>Sales
+                    </li>
+                    <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
+                        <i class="fa fa-mobile-alt text-primary mr-2" aria-hidden="true"></i>Training
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="row portfolio-container">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <figure class="position-relative rounded overflow-hidden mb-2">
+                        <img loading="lazy" style="filter: grayscale(100%);" class="img-fluid w-100"
+                            src="img/portfolio-1.jpg" alt="Sales pitch deck design for Fintech client">
+                        <figcaption class="sr-only">Sales pitch deck design for Fintech client</figcaption>
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio" title="View sales pitch deck project">
+                                <i class="fa fa-4x fa-plus text-primary" aria-hidden="true"></i>
+                                <span class="sr-only">View full-size image of Sales project</span>
+                            </a>
+                        </div>
+                    </figure>
                 </div>
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                        <div class="position-relative rounded overflow-hidden mb-2">
-                            <img style="filter: grayscale(100%);" class="img-fluid w-100" src="img/portfolio-1.jpg"
-                                alt="">
-                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-4x fa-plus text-primary"></i>
-                                </a>
-                            </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <figure class="position-relative rounded overflow-hidden mb-2">
+                        <img loading="lazy" style="filter: grayscale(100%);" class="img-fluid w-100"
+                            src="img/portfolio-2.jpg" alt="Training deck with interactive elements for HR onboarding">
+                        <figcaption class="sr-only">Training deck with interactive elements for HR onboarding</figcaption>
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio" title="View training project">
+                                <i class="fa fa-4x fa-plus text-primary" aria-hidden="true"></i>
+                                <span class="sr-only">View full-size image of Training project</span>
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                        <div class="position-relative rounded overflow-hidden mb-2">
-                            <img style="filter: grayscale(100%);" class="img-fluid w-100" src="img/portfolio-2.jpg"
-                                alt="">
-                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-4x fa-plus text-primary"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                        <div style="filter: grayscale(100%);" class="position-relative rounded overflow-hidden mb-2">
-                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-4x fa-plus text-primary"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item forth">
-                        <div style="filter: grayscale(100%);" class="position-relative rounded overflow-hidden mb-2">
-                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-4x fa-plus text-primary"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item fifth">
-                        <div style="filter: grayscale(100%);" class="position-relative rounded overflow-hidden mb-2">
-                            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-4x fa-plus text-primary"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item sixth">
-                        <div style="filter: grayscale(100%);" class="position-relative rounded overflow-hidden mb-2">
-                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                    <i class="fa fa-4x fa-plus text-primary"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    </figure>
                 </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <figure class="position-relative rounded overflow-hidden mb-2">
+                        <img loading="lazy" class="img-fluid w-100" style="filter: grayscale(100%);"
+                            src="img/portfolio-3.jpg" alt="Sales materials for new product launch">
+                        <figcaption class="sr-only">Sales materials for new product launch</figcaption>
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio" title="View product launch materials">
+                                <i class="fa fa-4x fa-plus text-primary" aria-hidden="true"></i>
+                                <span class="sr-only">View full-size image of Product Launch project</span>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item forth">
+                    <figure class="position-relative rounded overflow-hidden mb-2">
+                        <img loading="lazy" class="img-fluid w-100" style="filter: grayscale(100%);"
+                            src="img/portfolio-4.jpg" alt="Sales enablement toolkit design for sales reps">
+                        <figcaption class="sr-only">Sales enablement toolkit design for sales reps</figcaption>
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio" title="View sales toolkit design">
+                                <i class="fa fa-4x fa-plus text-primary" aria-hidden="true"></i>
+                                <span class="sr-only">View full-size image of Sales Enablement project</span>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item fifth">
+                    <figure class="position-relative rounded overflow-hidden mb-2">
+                        <img loading="lazy" class="img-fluid w-100" style="filter: grayscale(100%);"
+                            src="img/portfolio-5.jpg" alt="Training module design for software onboarding">
+                        <figcaption class="sr-only">Training module design for software onboarding</figcaption>
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio" title="View software training module">
+                                <i class="fa fa-4x fa-plus text-primary" aria-hidden="true"></i>
+                                <span class="sr-only">View full-size image of Software Training project</span>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item sixth">
+                    <figure class="position-relative rounded overflow-hidden mb-2">
+                        <img loading="lazy" class="img-fluid w-100" style="filter: grayscale(100%);"
+                            src="img/portfolio-6.jpg" alt="Executive summary design for internal strategy meeting">
+                        <figcaption class="sr-only">Executive summary design for internal strategy meeting</figcaption>
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio" title="View executive summary deck">
+                                <i class="fa fa-4x fa-plus text-primary" aria-hidden="true"></i>
+                                <span class="sr-only">View full-size image of Strategy Deck project</span>
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+
             </div>
         </div>
-    </section>
-    <!-- Portfolio End -->
+    </div>
+</section>
+<!-- Projects End -->
+
 
 
 
@@ -693,7 +722,9 @@
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
